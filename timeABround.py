@@ -12,14 +12,14 @@ def calc_statsB(filename):
 def measureTimeAB():
     start = time.time()
 
-    print(calc_statsA('data.csv'))
+    print(calc_statsA('data/data.csv'))
 
     end = time.time()
     print(end - start)
 
     start = time.time()
 
-    print(calc_statsB('data.csv'))
+    print(calc_statsB('data/data.csv'))
 
     end = time.time()
     print(end - start)

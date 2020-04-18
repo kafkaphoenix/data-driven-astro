@@ -18,14 +18,14 @@ def methodB(filename):
 def measureTimeAB():
     start = time.time()
 
-    print(methodA('data.csv'))
+    print(methodA('data/data.csv'))
 
     end = time.time()
     print(end - start)
 
     start = time.time()
 
-    print(methodB('data.csv'))
+    print(methodB('data/data.csv'))
 
     end = time.time()
     print(end - start)
